@@ -31,15 +31,14 @@ module.exports = React.createClass({
             }}
           >
             <Link
+                className="header-main"
               to={prefixLink('/')}
               style={{
-                color: 'White',
-                textDecoration: 'none',
-                size: "16px",
+                color: 'White'
               }}
             >
                 <div className="pokeball"></div>
-              Pokemon Go Trainers Guide
+              <div><p style={{size:'16px', color: 'White'}}>Pokemon Go Trainers Guide</p></div>
             </Link>
           </Container>
         </Headroom>
